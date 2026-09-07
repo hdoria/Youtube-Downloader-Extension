@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Free Video Downloader",
+  "version": "0.1.0",
+  "description": "Baixe vídeos do YouTube com auxiliar local, até 4K quando disponível.",
+  "minimum_chrome_version": "105",
+  "permissions": ["activeTab", "nativeMessaging", "storage"],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html", "default_title": "Baixar vídeo"}
+}

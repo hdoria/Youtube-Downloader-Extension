@@ -1,3 +1,11 @@
+# Free Downloader: implementação independente
+
+A extensão gratuita está em [`free-downloader/`](free-downloader/README.md). Ela usa um auxiliar local com yt-dlp e FFmpeg para baixar vídeo com áudio, até 4K quando disponível na origem. Consulte as instruções de instalação e as limitações no README da pasta.
+
+A licença MIT em `free-downloader/LICENSE` cobre somente o código novo nessa pasta. Os arquivos originais abaixo foram preservados como referência do fork, não têm licença declarada e não fazem parte da extensão nova. O código original publicado está incompleto.
+
+## README original da Tubly
+
 # <a href="https://tubly.download">YouTube Downloader Chrome Extension</a>
 
 <p align="center">
@@ -74,4 +82,3 @@ Yes! Our Chrome extension is specially designed to detect and download YouTube S
 
 ### How to convert YouTube videos to MP3?
 Our extension extracts audio directly from videos without requiring any additional software. After installing, you'll see an "Audio" option when clicking the download button to save in high-quality 320kbps MP3 format.
-

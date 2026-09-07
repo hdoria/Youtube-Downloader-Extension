@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Baixar vídeo</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <h1>Baixar vídeo</h1>
+  <p>Grátis, com vídeo e áudio no seu computador.</p>
+  <form id="download-form">
+    <label for="url">Link do YouTube</label>
+    <input id="url" type="url" required placeholder="https://www.youtube.com/watch?v=…">
+    <label for="quality">Qualidade máxima</label>
+    <select id="quality"><option value="2160">Até 4K (2160p)</option><option value="1440">Até 1440p</option><option value="1080">Até 1080p</option><option value="720">Até 720p</option></select>
+    <p class="hint">Usa a melhor qualidade disponível até o limite escolhido. O arquivo pode ser MKV, MP4 ou WebM.</p>
+    <button id="download" type="submit">Baixar vídeo</button>
+  </form>
+  <progress id="progress" max="100" value="0" hidden></progress>
+  <p id="status" role="status" aria-live="polite"></p>
+  <p class="hint">Você pode fechar este popup durante o download. Mantenha o Chrome aberto. Requer o auxiliar local instalado.</p>
+  <script src="popup.js"></script>
+</body></html>
